@@ -1,0 +1,32 @@
+/* Sets a background image. */
+
+body {
+/*	background: url("http://i.imgur.com/QA0HZdb.gif") no-repeat 50% 50% fixed;
+	background-size: cover; */
+	background-color: black;
+}
+
+div#story {
+	height: 100%;
+	width: 640px;
+	position: fixed;
+	top: 10px;
+	right: 0px;
+	text-align: center;
+	color: silver;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Sets a background video so long as a video with ID bgvid
+is contained in the html document. */
+video#bgvid {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: 100%;
+	z-index: -100;
+	background-size: cover;
+}
